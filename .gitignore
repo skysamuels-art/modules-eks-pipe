@@ -1,0 +1,71 @@
+# Terraform downloaded providers and modules
+**/.terraform/
+
+# Terraform state and backups
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Terraform saved plans
+*.tfplan
+tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Local Terraform values: provide examples separately
+*.tfvars
+*.tfvars.json
+*.tfvars.disabled
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH keys and certificates containing private keys
+*.pem
+*.key
+*.ppk
+id_rsa
+id_ed25519
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+.aws/
+.kube/
+kubeconfig
+kubeconfig.*
+credentials
+credentials.json
+secrets/
+secrets.yaml
+secrets.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Scanner output
+.scannerwork/
+.trivycache/
+trivy-report*
+sonar-report*
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
